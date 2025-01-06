@@ -4,32 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        @media screen and (max-width:400px) {
+            .footer{
+                margin-top: 700px;
+            }
+        }
+
+        @media screen and (min-width:400px) and (max-width:768px)  {
+            .footer{
+                margin-top: 600px;
+            }
+        }
+        @media screen and (min-width:786px) and (max-width:1024px)  {
+            .footer{
+                margin-top: 100px;
+            }
+        }
+
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand">Navbar</a>
+        <a class="navbar-brand">logo</a>
         <form class="form-inline">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
     </nav>
 
-    <div style="background-color: #E0E5EB;" class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-6 pt-5">
-                <div style="height: 70px;width: 70px;border-radius: 50%;background-color: #EC563D;"></div>
-                <h1 style="font-weight: 700; font-size: 5rem;">Contact Me</h1>
-                <p style="font-size: 1.25rem; line-height: 1.6;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                <p>Image from <a href="https://www.freepik.com/free-psd/tablet-screen-with-smartphone-mockup-top-view"></a>freepik</p>
-                <button style="background-color: black;color: white;padding: 10PX;width: 200PX;font-size: 1.25rem;font-weight: 400;">LEARN MORE</button>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-6">
-                <img style="height: 600px; width: 100%;" src="images/63-min.jpg" alt="">
+    <div style="background-color: #E0E5EB;">
+        <div style="background-color: #E0E5EB;" class="container">
+            <div class="row">
+                <div style="margin-top: 80px;" class="col-12 col-md-6 col-lg-6">
+                    <div style="height: 70px;width: 70px;border-radius: 50%;background-color: #EC563D;"></div>
+                    <h1 style="font-weight: 700; font-size: 5rem;">Contact Me</h1>
+                    <p style="font-size: 1.25rem; line-height: 1.6;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                    <p>Image from <a href="https://www.freepik.com/free-psd/tablet-screen-with-smartphone-mockup-top-view"></a>freepik</p>
+                    <button style="background-color: black;color: white;padding: 10PX;width: 200PX;font-size: 1.25rem;font-weight: 400;">LEARN MORE</button>
+                </div>
+    
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img style="height: 600px; width: 100%;" src="images/63-min.jpg" alt="">
+                </div>
             </div>
         </div>
     </div>
+
+    <div style="background-color:#292E33 ;">
+        <div style="background-color: #292E33;height: 100vh;" class="container">
+
+            <div style="color: white;" class="row">
+                <div style="margin-top: 100px;" class="col-12 col-md-6 col-lg-6">
+                    <h6 style=" text-transform: uppercase; letter-spacing: 5px;font-size: 1.125rem;line-height: 1.2;">Ready to talk?</h6>
+                    <h2 style="font-size: 4.0625rem;">Contact Me</h2>
+                    <p style="font-size: 1.125rem">
+                        Massa tempor nec feugiat nisl pretium fusce id velit. Accumsan tortor posuere ac ut. Aenean pharetra magna ac placerat vestibulum lectus. Praesent semper feugiat nibh sed pulvinar. Lorem sed risus ultricies tristique.<br><br>
+                        Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Amet dictum sit amet justo donec enim diam vulputate. Ut morbi tincidunt augue interdum velit euismod in pellentesque. Volutpat lacus laoreet non curabitur.
+                    </p>
+                </div>
+                <div style="margin-top: 100px;" class="col-12 col-md-6 col-lg-6">
+                    <form>
+                        <label style="font-size: 10px; font-weight: 400;" for="Name"></label>
+                        <input class="pl-3" style="background-color: #F2F2F2; border: none;height: 50px; width: 90%;font-size: 20px;" placeholder="Enter your name" type="text" id="name"><br><br>
+                        <label style="font-size: 10px; font-weight: 400;" for="Email"></label>
+                        <input class="pl-3" style="background-color: #F2F2F2; border: none;height: 50px; width: 90%;font-size: 20px;" placeholder="Enter a valid email address" type="text" id="name"><br><br>
+                        <label style="font-size: 10px; font-weight: 400;" for="message"></label>
+                        <textarea class="pl-3" style="background-color: #F2F2F2; border: none;height: 50px; width: 90%;font-size: 20px;height: 150px;" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                    </form>
+                    <BR>
+                    <button style=" width: 90%; height: 50px; border: 2px solid white; background-color: transparent; color: white;">SUBMIT</button>
+                    <br><br>
+                    <br>
+                    <br>
+                    <br>
+                    <i class="fa-brands fa-facebook-f"> </i><i style="margin-left: 20px;" class="fa-brands fa-instagram"></i>  <i style="margin-left: 20px;" class="fa-brands fa-twitter"></i>
+    
+                </div>
+            </div>
+        </div>
+    
+        <div style="height: 250px; background-color: #333333;" class="footer">
+            
+          <p class="pt-4" style="color: white; text-align: center;">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+          <p style="font-size: 15px; margin-top: 140px; text-align: center; color: white;">This site was created with the <a style="color: white;" href="https://nicepage.com/">Nicepage</a></p>
+
+        </div>
+    </div>
+    
+
+
 
 
 
